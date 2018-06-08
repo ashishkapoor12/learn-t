@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="enter name "
+            android:minHeight="40dp"
+            android:textColor="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="enter ID "
+            android:minHeight="40dp"
+            android:textColor="@android:color/white" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="enter email "
+            android:minHeight="40dp"
+            android:textColor="@android:color/white" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/gender_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="enter gender "
+            android:minHeight="40dp"
+            android:textColor="@android:color/white" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/comment_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="enter comment "
+            android:minHeight="40dp"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="19dp"
+            android:background="@android:color/white"
+            android:text="Save"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trip Logger</string>
+    <string-array name="type">
+
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Commute</item>
+    </string-array>
+
+
+</resources>
